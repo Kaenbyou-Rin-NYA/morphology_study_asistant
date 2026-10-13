@@ -1,0 +1,7 @@
+# Install a CUDA-capable torch/torchvision build for your GPU before these packages.
+numpy>=1.26,<3
+opencv-python-headless>=4.10,<5
+timm>=1.0,<2
+instanseg-torch>=0.1
+cellpose>=4,<5
+# CONCH and MedSAM: install upstream repositories; see docs/MODELS.md.

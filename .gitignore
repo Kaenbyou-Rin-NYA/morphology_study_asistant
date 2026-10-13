@@ -8,3 +8,7 @@ backend/data/uploads/
 __pycache__/
 .pytest_cache/
 .venv/
+backend/data/*.sqlite3*
+backend/data/masks/
+backend/data/checkpoints/
+.env
