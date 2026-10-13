@@ -1,0 +1,6 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.9,<1
+openslide-python>=1.4,<2
+openslide-bin>=4,<5
+Pillow>=10,<13

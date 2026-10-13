@@ -1,0 +1,10 @@
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+backend/.deps/
+backend/data/slides/*
+!backend/data/slides/.gitkeep
+backend/data/uploads/
+__pycache__/
+.pytest_cache/
+.venv/
