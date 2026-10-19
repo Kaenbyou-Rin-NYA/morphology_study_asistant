@@ -294,7 +294,7 @@ export default function App() {
           </>}
           {error && <div className="error" role="alert">{error}</div>}
         </div>
-        <div className="sidebar-footer"><span className="mini-dot" /> 本地演示环境 <span>·</span> 数据仅在当前进程保存</div>
+        <div className="sidebar-footer"><span className="mini-dot" /> 本地演示环境 <span>·</span> 数据保存在本机 SQLite</div>
       </aside>
       <main className="main">
         <div className="viewer-toolbar"><div className="toolbar-title"><span className="eyebrow">SLIDE VIEWER</span><strong>{slide?.name || '未选择切片'}</strong><small>{phase === 'teacher' ? '导览模式' : phase === 'student' ? '自测模式' : phase === 'review' ? '复习模式' : '全切片视图'}</small></div><div className="toolbar-actions"><button title="缩小" aria-label="缩小" onClick={() => viewer?.viewport.zoomBy(0.7)}><Minus size={18} /></button><button title="适配全图" aria-label="适配全图" onClick={() => viewer?.viewport.goHome()}><Focus size={18} /></button><button title="放大" aria-label="放大" onClick={() => viewer?.viewport.zoomBy(1.4)}><Plus size={18} /></button></div></div>
