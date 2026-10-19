@@ -12,3 +12,4 @@ backend/data/*.sqlite3*
 backend/data/masks/
 backend/data/checkpoints/
 .env
+bad.txt
